@@ -11,8 +11,17 @@ function App() {
 
          <div className="">
             <Header></Header>
-            <div className="clildOne">
-               <LeftSideBar />
+            <div className="container-fluid">
+               <div className="row">
+                  <div className="col-lg-2">
+                     <div className="clildOne">
+                        <LeftSideBar />
+                     </div>
+                  </div>
+                  <div className="col-lg-10">
+                     Glello
+                  </div>
+               </div>
             </div>
 
 
