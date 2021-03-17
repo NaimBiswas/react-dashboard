@@ -10,7 +10,7 @@ function App() {
    return (
       <>
 
-         <div className="">
+         <div className="App">
             <Header></Header>
             <div className="container-fluid">
                <div className="row">

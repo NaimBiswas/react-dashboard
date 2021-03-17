@@ -13,5 +13,21 @@
    
   
 }
+.SidebarNav{
+   font-size: 18px;
+   
+}
+.SidebarNav a{
+   color: #0B0C0D!important;
+   font-family: oswald;
+}
+.SidebarNav:hover{
+   background: #F2F2F2;
+   padding-left: -15px;
+   color: #0B0C0D;
+}
+.SidebarNav:hover a{
+   color: #F24405!important;
+}
 
 
