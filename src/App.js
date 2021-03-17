@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import LeftSideBar from './components/leftSideBar/LeftSideBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import Home from './components/Home/Home';
 
 function App() {
    return (
@@ -19,7 +20,7 @@ function App() {
                      </div>
                   </div>
                   <div className="col-lg-10">
-                     Glello
+                     <Home />
                   </div>
                </div>
             </div>
