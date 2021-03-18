@@ -7,7 +7,7 @@ const LeftSideBar = () => {
 
          <LeftSiderBar>
 
-            <ul className="nav SidebarNav">
+            <ul onClick={() => alert('Categories')} className="nav SidebarNav">
                <li className='nav-items'>
                   <a href="#" className='nav-link'>
                      Categoroies
@@ -17,7 +17,7 @@ const LeftSideBar = () => {
             <ul className="nav SidebarNav">
                <li className='nav-items'>
                   <a href="#" className='nav-link'>
-                     Categoroies
+                     Tags
                   </a>
                </li>
             </ul>
@@ -25,63 +25,7 @@ const LeftSideBar = () => {
             <ul className="nav SidebarNav">
                <li className='nav-items'>
                   <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
-                  </a>
-               </li>
-            </ul>
-            <ul className="nav SidebarNav">
-               <li className='nav-items'>
-                  <a href="#" className='nav-link'>
-                     Categoroies
+                     Post
                   </a>
                </li>
             </ul>
@@ -98,6 +42,11 @@ const LeftSiderBar = styled.div`
     overflow-x: overlay;
     margin-top:15px;
     margin-bottom:15px;
+    ul {
+       :hover{
+          cursor: pointer;
+       };
+    }
     
   
 `

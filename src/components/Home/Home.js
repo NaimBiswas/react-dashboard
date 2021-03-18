@@ -16,49 +16,7 @@ const Home = () => {
                <Button className="float-right text-light" variant='' title="Add Category">+</Button>
             </div>
             <HomeContent >
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
-               <h3>Hello World</h3>
+
             </HomeContent>
 
          </HomeContainer>
@@ -79,7 +37,7 @@ const HomeContainer = styled.div`
     padding-left: -21px;
     margin-left: -15px;
     border-radius: 5px 5px 0px 0px;
-    z-index:9999;
+    z-index:1;
 }
  div {
     border-radius:5px;
