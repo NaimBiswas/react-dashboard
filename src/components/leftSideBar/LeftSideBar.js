@@ -21,6 +21,63 @@ const LeftSideBar = () => {
                   </a>
                </li>
             </ul>
+
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
+            <ul className="nav SidebarNav">
+               <li className='nav-items'>
+                  <a href="#" className='nav-link'>
+                     Categoroies
+                  </a>
+               </li>
+            </ul>
             <ul className="nav SidebarNav">
                <li className='nav-items'>
                   <a href="#" className='nav-link'>

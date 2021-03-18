@@ -1,34 +1,109 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
+import Button from 'react-bootstrap/esm/Button'
 import styled from 'styled-components'
 
 const Home = () => {
-   return (
-      <Fragment>
 
-         <HomeContainer>
-            <h3>This is home componets</h3>
-            <HomeContent>
+
+
+
+   return (
+      < >
+
+         <HomeContainer id="TEst">
+            <div id="header" className={`bg-dark d-block pt-2 pb-2 h5 text-light justify-content-between scrolled `}>
+               <span className="ml-2">Categories</span>
+               <Button className="float-right text-light" variant='' title="Add Category">+</Button>
+            </div>
+            <HomeContent >
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
+               <h3>Hello World</h3>
                <h3>Hello World</h3>
             </HomeContent>
+
          </HomeContainer>
 
-      </Fragment>
+
+      </>
    )
 }
 const HomeContent = styled.div`
- 
+    
 `
 const HomeContainer = styled.div`
+.scrolled{
+       position: absolute;
+    top: 15px;
+    width: 96%;
   
-  margin:15px  0 15px 15px;
-  min-height:86vh;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  border-radius: 5px;
-  position: relative;
-  z-index: 1;
-  background: inherit;
-  border-radius:10px;
+    padding-left: -21px;
+    margin-left: -15px;
+    border-radius: 5px 5px 0px 0px;
+    z-index:9999;
+}
+ div {
+    border-radius:5px;
+    padding:5px;
+ }
+  span{
+     line-height: 33px;
+  }
+  button{
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px;
+    margin-right: 5px;
+    :focus{
+       outline: 0;
+       box-shadow: unset;
+    };
+    :hover{
+       opacity: .9;
+       transform: scale(1.2);
+    }
+  }
   
-  padding:15px;
+ 
 `
 export default Home

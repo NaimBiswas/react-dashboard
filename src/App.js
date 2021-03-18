@@ -19,8 +19,10 @@ function App() {
                         <LeftSideBar />
                      </div>
                   </div>
-                  <div className="col-sm-12 col-xs-12 col-md-9 col-lg-10  HomeArea">
-                     <Home />
+                  <div className="col-sm-12 col-xs-12 col-md-9 col-lg-10  ">
+                     <div className="HomeArea">
+                        <Home />
+                     </div>
                   </div>
                </div>
             </div>
