@@ -14,12 +14,12 @@ function App() {
             <Header></Header>
             <div className="container-fluid">
                <div className="row">
-                  <div className="col-lg-2">
+                  <div className=" col-sm-12 col-xs-12 col-md-3 col-lg-2 ">
                      <div className="clildOne">
                         <LeftSideBar />
                      </div>
                   </div>
-                  <div className="col-lg-10">
+                  <div className="col-sm-12 col-xs-12 col-md-9 col-lg-10  HomeArea">
                      <Home />
                   </div>
                </div>
