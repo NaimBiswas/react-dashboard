@@ -10,10 +10,14 @@ const Home = () => {
    return (
       < >
 
-         <HomeContainer id="TEst">
-            <div id="header" className={`bg-dark d-block pt-2 pb-2 h5 text-light justify-content-between scrolled `}>
-               <span className="ml-2">Categories</span>
-               <Button className="float-right text-light" variant='' title="Add Category">+</Button>
+         <HomeContainer>
+            <div className="container-fluid m-0 p-0">
+               <div className="col-lg-12 m-0 p-0">
+                  <div id="header w-100" className={`bg-dark d-block pt-2 pb-2 h5 text-light justify-content-between scrolled `}>
+                     <span className="ml-2">Categories</span>
+                     <Button className="float-right text-light" variant='' title="Add Category">+</Button>
+                  </div>
+               </div>
             </div>
             <HomeContent >
 
@@ -30,12 +34,12 @@ const HomeContent = styled.div`
 `
 const HomeContainer = styled.div`
 .scrolled{
-       position: absolute;
-    top: 15px;
-    width: 96%;
+    position: absolute;
+    top: 0;
+    width:100%;
   
     padding-left: -21px;
-    margin-left: -15px;
+   
     border-radius: 5px 5px 0px 0px;
     z-index:1;
 }
