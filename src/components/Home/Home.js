@@ -13,7 +13,7 @@ const Home = () => {
          <HomeContainer>
             <div className="container-fluid m-0 p-0">
                <div className="col-lg-12 m-0 p-0">
-                  <div id="header w-100" className={`bg-dark d-block pt-2 pb-2 h5 text-light justify-content-between scrolled `}>
+                  <div id="header w-100" className={`bg-danger d-block pt-2 pb-2 h5 text-light justify-content-between scrolled `}>
                      <span className="ml-2">Categories</span>
                      <Button className="float-right text-light" variant='' title="Add Category">+</Button>
                   </div>
